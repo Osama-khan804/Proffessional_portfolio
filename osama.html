@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osama's Portfolio</title>
+    <link rel="stylesheet" href="osama.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- NavBar -->
+     <div id="home" class="container grid navbar same-sides">
+        <div class="logo" >
+            <h1>Osama Khan</h1>
+        </div>
+     
+        <input type="checkbox" id="check">
+
+        <div class="menu">
+            <ul>                
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <!-- <div class="theme">  -->
+              <i class="fa-regular fa-moon moon" id="light-theme"></i>
+        <!-- </div> -->
+            <label for="check" class="open-menu">
+                <!-- &#9776; -->
+                <i class="fa-solid fa-bars "></i>
+            </label>
+            <label for="check" class="close-menu">
+                <i class="fa-brands fa-x-twitter"></i>
+            </label>
+        
+            <!--  -->
+            <button id="backToTopBtn">
+                <i class="fa-solid fa-arrow-up arrow"></i>
+            </button>
+            <!--  -->
+
+     </div>
+     <!-- Hero Section -->
+      <div class="container grid hero-section">
+        <div class="detail same-sides">
+            
+            <h1>I'm <span class="red auto-type"></span></h1>
+            <p>I am a Frontend Developer specializing in HTML, CSS, JavaScript, React, and Bootstrap. I build responsive and interactive websites with clean code, intuitive interfaces, and seamless user experiences.</p>
+            <a class="btn btn-alert" href="#">Let's Connect</a>
+
+        </div>
+
+        <div class="my-pic">
+            <img src="Untitled design (2)-fotor-bg-remover-2025031717752.png" alt="">
+        </div>
+
+      </div>
+
+      <!-- About section -->
+      <div>
+        <h1 class="container skill-h1"  id="about"><span class="red">A</span>bout Myself</h1>
+      </div>
+      <div class="container about-section same-sides">
+        <div class="about-self">
+        <p>I'm Osama Khan, a dedicated Frontend Developer with expertise in HTML, CSS, and JavaScript. Currently, I'm expanding my skills by learning React.js and backend technologies to become a full-stack developer. I am pursuing a BS in Computer Science at Qurtaba University and have a strong passion for creating dynamic, user-friendly web applications.
+
+            My goal is to continuously improve my skills, stay updated with the latest web technologies, and secure a stable career in the tech industry. I am always open to learning, collaborating, and taking on exciting projects.
+            
+            Let’s connect and build something amazing together!</p>
+    </div>
+
+   
+      </div>
+      <!-- Education section -->
+  <div class=" container skill-h1">
+        <h1><span class="red">E</span>ducation</h1>
+  </div>
+    <div class=" container about-education">
+        <h2>Matric</h2>
+        <p>OPF school system (2018)</p>
+        <h2>FSC</h2>
+        <p>LEEDS school and collage (2020)</p>
+        <h2>University</h2>
+        <p>Qurtaba university and information technology</p>
+        <h2>Degree</h2>
+        <p>Baclor in computer science (2023-2027)</p>
+        <h2>Languages</h2>
+        <p>English,Urdu,Pashto,Saraiki</p>
+    </div>
+    
+      <!-- Skills section -->
+    <div>
+      <h1 class="container skill-h1" id="skills"><span class="red">S</span>kills</h1>
+    </div>
+
+       <div class="container skills-section">
+
+        <div  class="html-skill skills">
+            <img src="HTML5_logo_and_wordmark.svg.png" alt="">
+            <p>HTML5</p>
+        </div>
+        <div class="css-skill skills">
+            <img src="css.png" alt="">
+            <p>CSS3</p>
+        </div>
+        <div class="bootstrap-skill skills">
+            <img src="botstrap.jpeg" alt="">
+            <p>Bootstrap</p>
+        </div>
+        <div class="js-skill skills">
+            <img src="javascript-736400_640.png" alt="">
+            <p>JavaScript</p>
+        </div>
+        <div class="react-skill skills">
+            <img src="react.png" alt="">
+            <p>React.JS</p>
+        </div>
+        <div class="figma-skill skills">
+            <img src="figma.png" alt="">
+            <p>Figma</p>  
+        </div>      
+       </div>
+
+       <!-- Form Section -->
+
+       <div class="container form-container" >
+        <h1 id="contact"><span class="red" >G</span>et In Touch</h1>
+        <div class="form-section grid">
+
+            <div class="form-pic">
+                <img src="man-8106958_1280.png" alt="">
+            </div>
+            <form action="">
+            <div class="form-detail">
+
+                <div class="input-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Name">
+                </div>
+                
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email"
+                required>
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-message message-icon"></i>
+                    <textarea placeholder="Message"></textarea>
+                </div>
+
+                <button class="btn" type="submit">Submit</button>
+            </div>
+            </form>
+
+        </div>
+       </div>
+
+        <!-- Footer -->
+         <div class="container footer">
+            <div class="text">
+                © 2025 Frontend Developer. All rights reserved.
+            </div>
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-facebook link"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram link"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin link"></i></a>
+                <a href="#"><i class="fa-brands fa-github link"></i></a>
+            </div>
+         </div>
+
+         <!-- auto type -->
+         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+         <!-- JS file -->
+         <script src="osama.js"></script>
+
+        </body>
+</html>
