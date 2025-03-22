@@ -39,7 +39,7 @@ p{
     font-size: 18px;
 }
 .container{
-    margin-inline: 20px;
+/*     margin-inline: 20px; */
 }
 .grid{
     display: grid;
